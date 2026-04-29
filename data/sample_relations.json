@@ -1,0 +1,247 @@
+[
+  {
+    "readme_id": 1,
+    "repo": "pallets/flask",
+    "source_file": "readme_001.md",
+    "relations": [
+      {
+        "subject": "Flask",
+        "predicate": "depends_on",
+        "object": "Werkzeug",
+        "sentence": "It depends on Werkzeug and Jinja2.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Flask",
+        "predicate": "supports",
+        "object": "Python 3.8",
+        "sentence": "Flask supports Python 3.8 and newer.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Flask",
+        "predicate": "integrates_with",
+        "object": "SQLAlchemy",
+        "sentence": "Installation\n\nInstall Flask using pip:\n\n \n\nFlask integrates with SQLAlchemy for database access.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Flask",
+        "predicate": "integrates_with",
+        "object": "Celery",
+        "sentence": "It also integrates with Celery for background task processing.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Flask",
+        "predicate": "provides",
+        "object": "a built-in development server and a fast debugger",
+        "sentence": "Features\n\nFlask provides a built-in development server and a fast debugger.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "readme_id": 2,
+    "repo": "psf/requests",
+    "source_file": "readme_002.md",
+    "relations": [
+      {
+        "subject": "Requests",
+        "predicate": "depends_on",
+        "object": "certifi",
+        "sentence": "It is built with urllib3 and depends on certifi for SSL certificate verification.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Requests",
+        "predicate": "built_with",
+        "object": "urllib3",
+        "sentence": "It is built with urllib3 and depends on certifi for SSL certificate verification.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Requests",
+        "predicate": "supports",
+        "object": "Python 3.7+",
+        "sentence": "Supported Versions\n\nRequests supports Python 3.7+.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Requests",
+        "predicate": "provides",
+        "object": "connection pooling",
+        "sentence": "Usage\n\n \n\nRequests provides connection pooling, multipart file uploads, and automatic content decoding.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Requests",
+        "predicate": "integrates_with",
+        "object": "OAuth",
+        "sentence": "Requests integrates with OAuth for authentication workflows.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "readme_id": 3,
+    "repo": "tiangolo/fastapi",
+    "source_file": "readme_003.md",
+    "relations": [
+      {
+        "subject": "FastAPI",
+        "predicate": "built_with",
+        "object": "Starlette",
+        "sentence": "FastAPI is built with Starlette and Pydantic.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "FastAPI",
+        "predicate": "depends_on",
+        "object": "Starlette",
+        "sentence": "Requirements\n\nFastAPI depends on Starlette for the web parts and Pydantic for the data parts.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "FastAPI",
+        "predicate": "provides",
+        "object": "automatic interactive API documentation",
+        "sentence": "Features\n\nFastAPI provides automatic interactive API documentation.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "FastAPI",
+        "predicate": "integrates_with",
+        "object": "OpenAPI",
+        "sentence": "It integrates with OpenAPI and\nJSON Schema.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "FastAPI",
+        "predicate": "integrates_with",
+        "object": "SQLAlchemy",
+        "sentence": "Installation\n\n \n\nFastAPI integrates with SQLAlchemy, Tortoise ORM, and other async ORMs.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "FastAPI",
+        "predicate": "integrates_with",
+        "object": "OAuth2",
+        "sentence": "It also integrates with OAuth2 for security and authentication.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "readme_id": 4,
+    "repo": "pandas-dev/pandas",
+    "source_file": "readme_004.md",
+    "relations": [
+      {
+        "subject": "Pandas",
+        "predicate": "depends_on",
+        "object": "python-dateutil",
+        "sentence": "It is built with NumPy and depends on python-dateutil.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Pandas",
+        "predicate": "built_with",
+        "object": "NumPy",
+        "sentence": "It is built with NumPy and depends on python-dateutil.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Pandas",
+        "predicate": "supports",
+        "object": "Python 3.9",
+        "sentence": "Supported Python Versions\n\nPandas supports Python 3.9, 3.10, 3.11, and 3.12.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Pandas",
+        "predicate": "integrates_with",
+        "object": "Matplotlib",
+        "sentence": "Optional Dependencies\n\nPandas integrates with Matplotlib for visualization.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Pandas",
+        "predicate": "integrates_with",
+        "object": "SQLAlchemy",
+        "sentence": "It also integrates with SQLAlchemy for reading and writing to SQL databases.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Pandas",
+        "predicate": "depends_on",
+        "object": "openpyxl",
+        "sentence": "Pandas supports reading from Excel files and depends on openpyxl for .xlsx format support.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Pandas",
+        "predicate": "provides",
+        "object": "DataFrame and Series data structures",
+        "sentence": "Installation\n\n \n\nPandas provides DataFrame and Series data structures.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "readme_id": 5,
+    "repo": "django/django",
+    "source_file": "readme_005.md",
+    "relations": [
+      {
+        "subject": "Django",
+        "predicate": "depends_on",
+        "object": "sqlparse",
+        "sentence": "Django depends on sqlparse and asgiref.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Django",
+        "predicate": "supports",
+        "object": "Python 3.10",
+        "sentence": "Python Compatibility\n\nDjango supports Python 3.10, 3.11, and 3.12.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Django",
+        "predicate": "supports",
+        "object": "PostgreSQL",
+        "sentence": "Supported Databases\n\nDjango supports PostgreSQL, MariaDB, MySQL, Oracle, and SQLite databases.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Django",
+        "predicate": "integrates_with",
+        "object": "psycopg2",
+        "sentence": "It integrates with psycopg2 for PostgreSQL connectivity.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Django",
+        "predicate": "integrates_with",
+        "object": "Celery",
+        "sentence": "Django integrates with Celery for asynchronous task queuing.",
+        "confidence": 0.95
+      },
+      {
+        "subject": "Django",
+        "predicate": "integrates_with",
+        "object": "Redis",
+        "sentence": "It also integrates with Redis for caching and session management.",
+        "confidence": 0.8
+      },
+      {
+        "subject": "Django",
+        "predicate": "built_with",
+        "object": "Python",
+        "sentence": "Installation\n\n \n\nDjango is built with Python and supports internationalization and localization out of the box.",
+        "confidence": 0.95
+      }
+    ]
+  }
+]
